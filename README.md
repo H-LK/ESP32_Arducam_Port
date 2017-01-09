@@ -11,7 +11,8 @@ It is still not 100% stable. Tested with Arduino 1.8.0 .
 4. Set your Wifi-Settings
 5. Upload the sketch to the ESP32
 6. Open a TCP Server on your PC
-for i in {1..1000}; do sudo nc -l 80 | xxd -p -r > ${i}.jpg; done
+
+  for i in {1..1000}; do sudo nc -l 80 | xxd -p -r > ${i}.jpg; done
 7. (Re)-Start the ESP32
 
 
