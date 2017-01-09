@@ -27,3 +27,9 @@ for i in {1..1000}; do sudo nc -l 80 | xxd -p -r > ${i}.jpg; done
 | SCK | GPIO 18|
 | MOSI | GPIO 23|
 | MISO | GPIO 19|
+
+
+![alt tag](wiring.jpg)
+
+Test image. I have to clean my sensor somehow....
+![alt tag](test.jpg)
