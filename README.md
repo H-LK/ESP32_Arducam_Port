@@ -1,7 +1,7 @@
 # ESP32 with Arducam Mini 2MP OV2640
-This is an early port of the Arducam-Software for the ESP32 https://github.com/ArduCAM
+This is an early port of the Arduino Arducam-Software for the ESP32 https://github.com/ArduCAM
 
-Currently it only works with the Arducam Mini 2MP OV2640.
+Currently it only works with the Arducam Mini 2MP OV2640. I doesn't own any other Arducams at the moment.
 
 It is still not 100% stable. Tested with Arduino 1.8.0 .
 
@@ -29,7 +29,7 @@ It is still not 100% stable. Tested with Arduino 1.8.0 .
 | MOSI | GPIO 23|
 | MISO | GPIO 19|
 
-
+Ignore the right side of the picture. It is just a button and a pir sensor which aren't necessary for this code.
 ![alt tag](wiring.jpg)
 
 Test image. I have to clean my sensor somehow....
