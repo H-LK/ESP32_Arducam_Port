@@ -17,7 +17,7 @@ for i in {1..1000}; do sudo nc -l 80 | xxd -p -r > ${i}.jpg; done
 
 
 
-| A       | ESP32         |
+| Arducam Mini 2MP       | ESP32         |
 | ------------- |:-------------:|
 | VCC | 5V |
 | GND | GND |
