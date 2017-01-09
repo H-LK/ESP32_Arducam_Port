@@ -1,8 +1,9 @@
 # ESP32 with Arducam Mini 2MP OV2640
 This is an early port of the Arducam-Software for the ESP32 https://github.com/ArduCAM
-Currently it only works with the Arducam Mini 2MP OV2640
 
-Its still not 100% stable.
+Currently it only works with the Arducam Mini 2MP OV2640.
+
+It is still not 100% stable.
 
 1. Download the ESP32 Arduino library https://github.com/espressif/arduino-esp32
 2. Copy the Arducam library into your Arduino library folder (ARDUCAM_ESP32_TCP.ino)
@@ -26,5 +27,3 @@ for i in {1..1000}; do sudo nc -l 80 | xxd -p -r > ${i}.jpg; done
 | SCK | GPIO 18|
 | MOSI | GPIO 23|
 | MISO | GPIO 19|
-
-
